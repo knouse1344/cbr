@@ -1,0 +1,113 @@
+/* line 9, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+#index .banner {
+  width: 100%;
+  height: 30em;
+  display: block;
+  background: url("/assets/home_banner.jpg");
+  background-size: cover;
+  background-position: center;
+}
+/* line 17, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+#index .banner .container {
+  position: relative;
+}
+/* line 21, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+#index .banner .bannerimg {
+  width: 100%;
+  display: block;
+}
+/* line 26, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+#index .banner .logo {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-left: 5px solid #9cb2c7;
+  border-bottom: 5px solid #9cb2c7;
+  border-right: 5px solid #9cb2c7;
+}
+/* line 36, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+#index .introduction {
+  padding: 2.5em 0;
+  font-size: 1.25em;
+  line-height: 1.75em;
+}
+/* line 42, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+#index .bodyimg {
+  width: 100%;
+  display: block;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+/* line 19, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
+html, html body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* line 27, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
+#header .toplevel {
+  height: 36px;
+  background: #da291c;
+}
+/* line 31, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
+#header .toplevel .toplist {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 36, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
+#header .toplevel .toplist li {
+  display: inline-block;
+  height: 36px;
+  padding: 0 2em;
+  color: #fff;
+  line-height: 36px;
+  font-size: .9em;
+  text-transform: uppercase;
+}
+/* line 45, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
+#header .toplevel .toplist li i {
+  margin-right: .5em;
+  font-size: .75em;
+  position: relative;
+  top: -1px;
+}
+/* line 53, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
+#header .toplevel .toplist li:first-child {
+  padding-left: 0;
+}
+/* line 59, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
+#header .mainlist {
+  list-style-type: none;
+  margin: 0;
+  padding: 1.5em 0 .25em;
+}
+/* line 64, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
+#header .mainlist li {
+  display: inline-block;
+  padding: .5em 1em .5em .5em;
+  border-left: 1px solid #ccc;
+  font-size: .9em;
+}
+
+/* line 73, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
+#footer {
+  width: 100%;
+  background: #da291c;
+  height: 15em;
+  margin-top: 10em;
+}

@@ -1,0 +1,77 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+html, html body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+#header {
+
+	.toplevel {
+		height: 36px;
+		background: #da291c;
+
+		.toplist {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+
+			li {
+				display: inline-block;
+				height: 36px;
+				padding: 0 2em;
+				color: #fff;
+				line-height: 36px;
+				font-size: .9em;
+				text-transform: uppercase;
+
+				i {
+					margin-right: .5em;
+					font-size: .75em;
+					position: relative;
+					top: -1px;
+				}
+			}
+
+			li:first-child {
+				padding-left: 0;
+			}
+		}
+	}
+
+	.mainlist {
+		list-style-type: none;
+		margin: 0;
+		padding: 1.5em 0 .25em;
+
+		li {
+			display: inline-block;
+			padding: .5em 1em .5em .5em;
+			border-left: 1px solid #ccc;
+			font-size: .9em;
+		}
+	}
+}
+
+#footer {
+	width: 100%;
+	background: #da291c;
+	height: 15em;
+	margin-top: 10em;
+}
