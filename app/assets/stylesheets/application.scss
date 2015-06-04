@@ -41,6 +41,10 @@ html, html body {
 				font-size: .9em;
 				text-transform: uppercase;
 
+				a {
+					color: #fff;
+				}
+
 				i {
 					margin-right: .5em;
 					font-size: .75em;
@@ -55,16 +59,76 @@ html, html body {
 		}
 	}
 
+	.bottomlevel {
+		border-bottom: 5px solid #ffc72c;
+	}
+
 	.mainlist {
 		list-style-type: none;
-		margin: 0;
-		padding: 1.5em 0 .25em;
+		margin: 0 0 -4px;
+		padding: 1.5em 0 0;
+		word-spacing: -4px;
 
 		li {
 			display: inline-block;
-			padding: .5em 1em .5em .5em;
-			border-left: 1px solid #ccc;
+			padding: .5em 3.5em .5em 0;
 			font-size: .9em;
+			word-spacing: 0;
+
+			a {
+				color: #000;
+				display: block;
+				font-size: 1.1em;
+				padding-left: .75em;
+				border-left: 1px solid;
+			}
+		}
+		li.pedestrian {
+			border-bottom: 5px solid #ffc72c;
+
+			a {
+				border-color: #ffc72c;
+			}
+		}
+
+		li.generation {
+			border-bottom: 5px solid #f4c3cc;
+
+			a {
+				border-color: #f4c3cc;
+			}
+		}
+
+		li.mental {
+			border-bottom: 5px solid #a05eb5;
+
+			a {
+				border-color: #a05eb5;
+			}
+		}
+
+		li.advanced {
+			border-bottom: 5px solid #6cc24a;
+
+			a {
+				border-color: #6cc24a;
+			}
+		}
+
+		li.parish {
+			border-bottom: 5px solid #8bb8e8;
+
+			a {
+				border-color: #8bb8e8;
+			}
+		}
+
+		li.maryland {
+			border-bottom: 5px solid #ed8b00;
+
+			a {
+				border-color: #ed8b00;
+			}
 		}
 	}
 }
@@ -72,6 +136,32 @@ html, html body {
 #footer {
 	width: 100%;
 	background: #da291c;
-	height: 15em;
 	margin-top: 10em;
+
+	.foot-info {
+		padding-top: 2em;
+
+		p {
+			color: #fff;
+			text-align: center;
+		}
+	}
+
+	.logo {
+		padding-top: 3em;
+		text-align: center;
+
+		img {
+			border-top: 8px solid #e7746b;
+			border-left: 8px solid #e7746b;
+			border-right: 8px solid #e7746b;
+			display: inline-block;
+		}
+	}
 }
+
+
+
+
+
+
