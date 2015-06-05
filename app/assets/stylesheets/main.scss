@@ -2,45 +2,52 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.banner {
+	width: 100%;
+	height: 30em;
+	margin-bottom: 3em;
+	position: relative;
+	display: block;
 
+	.container {
+		position: relative;
+	}
+
+	.bannerimg {
+		width: 100%;
+		display: block;
+	}
+
+	.logo {
+		position: absolute;
+		right: 0;
+		top: 0;
+		border-left: 5px solid #9cb2c7;
+		border-bottom: 5px solid #9cb2c7;
+		border-right: 5px solid #9cb2c7;
+	}
+
+	.banner-nav {
+		position: absolute;
+		bottom: -2em;
+
+		img {
+			width: 90%;
+		}
+	}
+}
 
 #index {
 
 	.banner {
-		width: 100%;
-		height: 30em;
-		margin-bottom: 3em;
-		position: relative;
-		display: block;
 		background: url('/assets/home_banner.jpg');
 		background-size: cover;
 		background-position: center;
 
-		.container {
-			position: relative;
-		}
-
-		.bannerimg {
-			width: 100%;
-			display: block;
-		}
-
 		.logo {
-			position: absolute;
-			right: 0;
-			top: 0;
 			border-left: 5px solid #9cb2c7;
 			border-bottom: 5px solid #9cb2c7;
 			border-right: 5px solid #9cb2c7;
-		}
-
-		.banner-nav {
-			position: absolute;
-			bottom: -2em;
-
-			img {
-				width: 90%;
-			}
 		}
 	}
 
@@ -218,6 +225,78 @@
 
 				h3 {
 					border-left: 3px solid #ed8b00;
+				}
+			}
+		}
+	}
+}
+
+
+#pedestrian {
+
+	.banner {
+		background: url('/assets/pedestrian_banner.jpg');
+		background-size: cover;
+		background-position: center;
+
+		.logo {
+			border-left: 5px solid rgba(255,255,255,.5);
+			border-bottom: 5px solid rgba(255,255,255,.5);
+			border-right: 5px solid rgba(255,255,255,.5);
+		}
+	}
+
+	.body {
+		padding-top: 2em;
+
+		p {
+			font-size: 1.25em;
+			line-height: 1.75em;
+		}
+
+		.prevention {
+			padding: .5em;
+			border: 2px solid #ccc;
+
+			.inner {
+				position: relative;
+				background: #fef9eb;
+				padding: .75em 1em 1.5em;
+
+				.title {
+					display: block;
+					vertical-align: top;
+					position: relative;
+					width: 100%;
+					margin-top: 0;
+					margin-left: -.5em;
+					margin-bottom: 1.5em;
+					padding-top: .5em;
+					padding-left: 2em;
+					z-index: 5;
+
+					h3 {
+						position: relative;
+						z-index: 10;
+						margin: 0;
+						font-size: 1.4em;
+						padding: .1em 2.5em .1em .5em;
+						line-height: 1.25em;
+						border-left: 3px solid #f4c53f;
+					}
+
+					img {
+						position: absolute;
+						top: 0;
+						left: 0;
+						width: 100%;
+						z-index: 5;
+					}
+				}
+
+				p {
+					margin: 0;
+					font-size: 1.1em;
 				}
 			}
 		}
