@@ -232,7 +232,7 @@
 }
 
 
-#pedestrian {
+#pedestrian, #generations, #mental, #advanced, #parish, #maryland, #leadership, #report, #programs {
 
 	.banner {
 		background: url('/assets/pedestrian_banner.jpg');
@@ -254,7 +254,7 @@
 			line-height: 1.75em;
 		}
 
-		.prevention {
+		.sidebox {
 			padding: .5em;
 			border: 2px solid #ccc;
 
@@ -269,7 +269,7 @@
 					position: relative;
 					width: 100%;
 					margin-top: 0;
-					margin-left: -.5em;
+					margin-left: -1.5em;
 					margin-bottom: 1.5em;
 					padding-top: .5em;
 					padding-left: 2em;
@@ -300,5 +300,263 @@
 				}
 			}
 		}
+	}
+}
+
+#generations {
+
+	.banner {
+		background: url('/assets/generations_banner.jpg');
+		background-size: cover;
+		background-position: center;
+
+		.logo {
+			border-left: 5px solid rgba(255,255,255,.5);
+			border-bottom: 5px solid rgba(255,255,255,.5);
+			border-right: 5px solid rgba(255,255,255,.5);
+		}
+	}
+
+	.body {
+
+		.sidebox {
+			padding: .5em;
+			border: 2px solid #ccc;
+
+			.inner {
+				position: relative;
+				background: #fdf9fa;
+				padding: .75em 1em 1.5em;
+
+				.title {
+					display: block;
+					vertical-align: top;
+					position: relative;
+					width: 100%;
+					margin-top: 0;
+					margin-left: -1.5em;
+					margin-bottom: 1.5em;
+					padding-top: .5em;
+					padding-left: 2em;
+					z-index: 5;
+
+					h3 {
+						position: relative;
+						z-index: 10;
+						margin: 0;
+						font-size: 1.4em;
+						padding: .1em 2.5em .1em .5em;
+						line-height: 1.25em;
+						border-left: 3px solid #e9c2ca;
+					}
+
+					img {
+						position: absolute;
+						top: 0;
+						left: 0;
+						width: 100%;
+						z-index: 5;
+					}
+				}
+
+				p {
+					margin: 0;
+					font-size: 1.1em;
+				}
+			}
+		}
+	}
+}
+
+#mental {
+
+	.banner {
+		background: url('/assets/mental_banner.jpg');
+		background-size: cover;
+		background-position: center;
+
+		.logo {
+			border-left: 5px solid rgba(255,255,255,.5);
+			border-bottom: 5px solid rgba(255,255,255,.5);
+			border-right: 5px solid rgba(255,255,255,.5);
+		}
+	}
+
+	.body {
+
+		.sidebox {
+			padding: .5em;
+			border: 2px solid #ccc;
+
+			.inner {
+				position: relative;
+				background: #f4f0f7;
+				padding: .75em 1em 1.5em;
+
+				.title {
+					display: block;
+					vertical-align: top;
+					position: relative;
+					width: 100%;
+					margin-top: 0;
+					margin-left: -1.5em;
+					margin-bottom: 1.5em;
+					padding-top: .5em;
+					padding-left: 2em;
+					z-index: 5;
+
+					h3 {
+						position: relative;
+						z-index: 10;
+						margin: 0;
+						font-size: 1.4em;
+						padding: .1em 2.5em .1em .5em;
+						line-height: 1.25em;
+						border-left: 3px solid #9370ad;
+					}
+
+					img {
+						position: absolute;
+						top: 0;
+						left: 0;
+						width: 100%;
+						z-index: 5;
+					}
+				}
+
+				p {
+					margin: 0;
+					font-size: 1.1em;
+				}
+			}
+		}
+	}
+}
+
+
+#advanced {
+
+	.banner {
+		background: url('/assets/advanced_banner.jpg');
+		background-size: cover;
+		background-position: center;
+
+		.logo {
+			border-left: 5px solid rgba(255,255,255,.5);
+			border-bottom: 5px solid rgba(255,255,255,.5);
+			border-right: 5px solid rgba(255,255,255,.5);
+		}
+	}
+
+	.body {
+
+	}
+}
+
+
+#parish {
+
+	.banner {
+		background: url('/assets/parish_banner.jpg');
+		background-size: cover;
+		background-position: center;
+
+		.logo {
+			border-left: 5px solid rgba(255,255,255,.5);
+			border-bottom: 5px solid rgba(255,255,255,.5);
+			border-right: 5px solid rgba(255,255,255,.5);
+		}
+	}
+
+	.body {
+		
+	}
+}
+
+
+#maryland {
+
+	.banner {
+		background: url('/assets/maryland_banner.jpg');
+		background-size: cover;
+		background-position: center;
+
+		.logo {
+			border-left: 5px solid rgba(255,255,255,.5);
+			border-bottom: 5px solid rgba(255,255,255,.5);
+			border-right: 5px solid rgba(255,255,255,.5);
+		}
+	}
+
+	.body {
+		
+	}
+}
+
+
+#leadership {
+
+	.banner {
+		background: url('/assets/leadership_banner.jpg');
+		background-size: cover;
+		background-position: center;
+
+		.logo {
+			border-left: 5px solid rgba(255,255,255,.5);
+			border-bottom: 5px solid rgba(255,255,255,.5);
+			border-right: 5px solid rgba(255,255,255,.5);
+		}
+	}
+
+	.body {
+		
+		.signature {
+			margin: 1em 0 2em;
+		}
+	}
+}
+
+#programs {
+
+	.banner {
+		background: url('/assets/programs_banner.jpg');
+		background-size: cover;
+		background-position: center;
+
+		.logo {
+			border-left: 5px solid rgba(255,255,255,.5);
+			border-bottom: 5px solid rgba(255,255,255,.5);
+			border-right: 5px solid rgba(255,255,255,.5);
+		}
+	}
+
+	.body {
+
+		ul {
+
+			li {
+				font-size: 1.1em;
+				line-height: 1.75em;
+			}
+		}
+	}
+}
+
+#report {
+
+	.banner {
+		background: url('/assets/report_banner.jpg');
+		background-size: cover;
+		background-position: center;
+
+		.logo {
+			border-left: 5px solid rgba(255,255,255,.5);
+			border-bottom: 5px solid rgba(255,255,255,.5);
+			border-right: 5px solid rgba(255,255,255,.5);
+		}
+	}
+
+	.body {
+		
 	}
 }

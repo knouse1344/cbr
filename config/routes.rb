@@ -1,7 +1,15 @@
 Rails.application.routes.draw do
   
+  get 'main/generations'
+  get 'main/mental'
   get 'main/index'
   get 'main/pedestrian'
+  get 'main/advanced'
+  get 'main/parish'
+  get 'main/maryland'
+  get 'main/leadership'
+  get 'main/programs'
+  get 'main/report'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
