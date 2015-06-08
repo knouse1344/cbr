@@ -42,49 +42,61 @@
   bottom: -2em;
 }
 /* line 46, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+.banner .banner-nav a {
+  display: block;
+}
+/* line 50, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+.banner .banner-nav a:hover {
+  opacity: .9;
+}
+/* line 54, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 .banner .banner-nav img {
   width: 90%;
 }
 
-/* line 54, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 62, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #index .banner {
   background: url("/assets/home_banner.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 59, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 67, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #index .banner .logo {
   border-left: 5px solid #9cb2c7;
   border-bottom: 5px solid #9cb2c7;
   border-right: 5px solid #9cb2c7;
 }
-/* line 66, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 74, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+#index p {
+  color: #746661;
+}
+/* line 78, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #index .introduction {
   padding: 2.5em 0;
   font-size: 1.25em;
   line-height: 1.75em;
 }
-/* line 72, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 84, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #index .bodyimg {
   width: 100%;
   display: block;
 }
-/* line 77, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 89, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #index .boxes {
   margin-bottom: 2em;
 }
-/* line 80, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 92, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #index .boxes .box-item {
   border: 1px solid #aaa;
   padding: .5em;
   text-align: left;
 }
-/* line 85, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 97, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #index .boxes .box-item .inner {
-  height: 20em;
+  height: 22em;
   position: relative;
 }
-/* line 89, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 101, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #index .boxes .box-item .inner .title {
   display: inline-block;
   vertical-align: top;
@@ -96,7 +108,7 @@
   margin-right: -5%;
   z-index: 5;
 }
-/* line 100, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 112, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #index .boxes .box-item .inner .title h3 {
   position: relative;
   z-index: 10;
@@ -105,7 +117,7 @@
   padding: .25em 2.5em .5em .5em;
   line-height: 1.25em;
 }
-/* line 109, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 121, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #index .boxes .box-item .inner .title img {
   position: absolute;
   top: 0;
@@ -113,7 +125,7 @@
   width: 100%;
   z-index: 5;
 }
-/* line 118, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 130, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #index .boxes .box-item .inner .image {
   z-index: 25;
   position: absolute;
@@ -123,11 +135,11 @@
   right: 60%;
   overflow: hidden;
 }
-/* line 127, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 139, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #index .boxes .box-item .inner .image img {
   width: 100%;
 }
-/* line 132, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 144, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #index .boxes .box-item .inner p {
   width: 55%;
   padding-right: 1em;
@@ -135,130 +147,131 @@
   font-size: .9em;
   float: right;
 }
-/* line 141, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 153, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #index .boxes .box-item img {
   display: inline-block;
 }
-/* line 147, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 159, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #index .boxes .box-item.pedestrian .inner {
   background: #fff4d5;
 }
-/* line 150, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 162, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #index .boxes .box-item.pedestrian .inner .image {
   background: url("/assets/pedestrian_img.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 156, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 168, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #index .boxes .box-item.pedestrian .inner h3 {
   border-left: 3px solid #ffc72c;
   padding-bottom: 1.85em;
 }
-/* line 164, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 176, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #index .boxes .box-item.advanced .inner {
   background: #ebf6e9;
 }
-/* line 167, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 179, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #index .boxes .box-item.advanced .inner .image {
   background: url("/assets/advanced_img.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 173, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 185, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #index .boxes .box-item.advanced .inner h3 {
   border-left: 3px solid #78c06c;
 }
-/* line 180, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 192, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #index .boxes .box-item.generation .inner {
   background: #fef5f5;
 }
-/* line 183, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 195, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #index .boxes .box-item.generation .inner .image {
   background: url("/assets/generations_img.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 189, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 201, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #index .boxes .box-item.generation .inner h3 {
   border-left: 3px solid #f9cdcf;
   padding-bottom: 1.75em;
 }
-/* line 197, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 209, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #index .boxes .box-item.parish .inner {
   background: #e9f1f9;
 }
-/* line 200, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 212, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #index .boxes .box-item.parish .inner .image {
   background: url("/assets/parish_img.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 206, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 218, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #index .boxes .box-item.parish .inner h3 {
   border-left: 3px solid #99c0e4;
 }
-/* line 213, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 225, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #index .boxes .box-item.mental .inner {
   background: #e4dbea;
 }
-/* line 216, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 228, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #index .boxes .box-item.mental .inner .image {
   background: url("/assets/mental_img.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 222, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 234, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #index .boxes .box-item.mental .inner h3 {
   border-left: 3px solid #9370ad;
 }
-/* line 229, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 241, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #index .boxes .box-item.maryland .inner {
   background: #e9f1f9;
 }
-/* line 232, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 244, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #index .boxes .box-item.maryland .inner .image {
   background: url("/assets/maryland_img.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 238, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 250, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #index .boxes .box-item.maryland .inner h3 {
   border-left: 3px solid #ed8b00;
 }
 
-/* line 249, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 261, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #pedestrian .banner, #generations .banner, #mental .banner, #advanced .banner, #parish .banner, #maryland .banner, #leadership .banner, #report .banner, #programs .banner {
   background: url("/assets/pedestrian_banner.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 254, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 266, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #pedestrian .banner .logo, #generations .banner .logo, #mental .banner .logo, #advanced .banner .logo, #parish .banner .logo, #maryland .banner .logo, #leadership .banner .logo, #report .banner .logo, #programs .banner .logo {
   border-left: 5px solid rgba(255, 255, 255, 0.5);
   border-bottom: 5px solid rgba(255, 255, 255, 0.5);
   border-right: 5px solid rgba(255, 255, 255, 0.5);
 }
-/* line 261, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 273, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #pedestrian .body, #generations .body, #mental .body, #advanced .body, #parish .body, #maryland .body, #leadership .body, #report .body, #programs .body {
   padding-top: 2em;
 }
-/* line 264, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 276, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #pedestrian .body p, #generations .body p, #mental .body p, #advanced .body p, #parish .body p, #maryland .body p, #leadership .body p, #report .body p, #programs .body p {
   font-size: 1.25em;
   line-height: 1.75em;
+  color: #746661;
 }
-/* line 269, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 282, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #pedestrian .body .sidebox, #generations .body .sidebox, #mental .body .sidebox, #advanced .body .sidebox, #parish .body .sidebox, #maryland .body .sidebox, #leadership .body .sidebox, #report .body .sidebox, #programs .body .sidebox {
   padding: .5em;
   border: 2px solid #ccc;
 }
-/* line 273, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 286, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #pedestrian .body .sidebox .inner, #generations .body .sidebox .inner, #mental .body .sidebox .inner, #advanced .body .sidebox .inner, #parish .body .sidebox .inner, #maryland .body .sidebox .inner, #leadership .body .sidebox .inner, #report .body .sidebox .inner, #programs .body .sidebox .inner {
   position: relative;
   background: #fef9eb;
   padding: .75em 1em 1.5em;
 }
-/* line 278, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 291, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #pedestrian .body .sidebox .inner .title, #generations .body .sidebox .inner .title, #mental .body .sidebox .inner .title, #advanced .body .sidebox .inner .title, #parish .body .sidebox .inner .title, #maryland .body .sidebox .inner .title, #leadership .body .sidebox .inner .title, #report .body .sidebox .inner .title, #programs .body .sidebox .inner .title {
   display: block;
   vertical-align: top;
@@ -271,7 +284,7 @@
   padding-left: 2em;
   z-index: 5;
 }
-/* line 290, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 303, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #pedestrian .body .sidebox .inner .title h3, #generations .body .sidebox .inner .title h3, #mental .body .sidebox .inner .title h3, #advanced .body .sidebox .inner .title h3, #parish .body .sidebox .inner .title h3, #maryland .body .sidebox .inner .title h3, #leadership .body .sidebox .inner .title h3, #report .body .sidebox .inner .title h3, #programs .body .sidebox .inner .title h3 {
   position: relative;
   z-index: 10;
@@ -281,7 +294,7 @@
   line-height: 1.25em;
   border-left: 3px solid #f4c53f;
 }
-/* line 300, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 313, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #pedestrian .body .sidebox .inner .title img, #generations .body .sidebox .inner .title img, #mental .body .sidebox .inner .title img, #advanced .body .sidebox .inner .title img, #parish .body .sidebox .inner .title img, #maryland .body .sidebox .inner .title img, #leadership .body .sidebox .inner .title img, #report .body .sidebox .inner .title img, #programs .body .sidebox .inner .title img {
   position: absolute;
   top: 0;
@@ -289,36 +302,36 @@
   width: 100%;
   z-index: 5;
 }
-/* line 309, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 322, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #pedestrian .body .sidebox .inner p, #generations .body .sidebox .inner p, #mental .body .sidebox .inner p, #advanced .body .sidebox .inner p, #parish .body .sidebox .inner p, #maryland .body .sidebox .inner p, #leadership .body .sidebox .inner p, #report .body .sidebox .inner p, #programs .body .sidebox .inner p {
   margin: 0;
   font-size: 1.1em;
 }
 
-/* line 320, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 333, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #generations .banner {
   background: url("/assets/generations_banner.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 325, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 338, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #generations .banner .logo {
   border-left: 5px solid rgba(255, 255, 255, 0.5);
   border-bottom: 5px solid rgba(255, 255, 255, 0.5);
   border-right: 5px solid rgba(255, 255, 255, 0.5);
 }
-/* line 334, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 347, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #generations .body .sidebox {
   padding: .5em;
   border: 2px solid #ccc;
 }
-/* line 338, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 351, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #generations .body .sidebox .inner {
   position: relative;
   background: #fdf9fa;
   padding: .75em 1em 1.5em;
 }
-/* line 343, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 356, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #generations .body .sidebox .inner .title {
   display: block;
   vertical-align: top;
@@ -331,7 +344,7 @@
   padding-left: 2em;
   z-index: 5;
 }
-/* line 355, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 368, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #generations .body .sidebox .inner .title h3 {
   position: relative;
   z-index: 10;
@@ -341,7 +354,7 @@
   line-height: 1.25em;
   border-left: 3px solid #e9c2ca;
 }
-/* line 365, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 378, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #generations .body .sidebox .inner .title img {
   position: absolute;
   top: 0;
@@ -349,36 +362,36 @@
   width: 100%;
   z-index: 5;
 }
-/* line 374, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 387, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #generations .body .sidebox .inner p {
   margin: 0;
   font-size: 1.1em;
 }
 
-/* line 385, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 398, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #mental .banner {
   background: url("/assets/mental_banner.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 390, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 403, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #mental .banner .logo {
   border-left: 5px solid rgba(255, 255, 255, 0.5);
   border-bottom: 5px solid rgba(255, 255, 255, 0.5);
   border-right: 5px solid rgba(255, 255, 255, 0.5);
 }
-/* line 399, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 412, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #mental .body .sidebox {
   padding: .5em;
   border: 2px solid #ccc;
 }
-/* line 403, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 416, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #mental .body .sidebox .inner {
   position: relative;
   background: #f4f0f7;
   padding: .75em 1em 1.5em;
 }
-/* line 408, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 421, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #mental .body .sidebox .inner .title {
   display: block;
   vertical-align: top;
@@ -391,7 +404,7 @@
   padding-left: 2em;
   z-index: 5;
 }
-/* line 420, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 433, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #mental .body .sidebox .inner .title h3 {
   position: relative;
   z-index: 10;
@@ -401,7 +414,7 @@
   line-height: 1.25em;
   border-left: 3px solid #9370ad;
 }
-/* line 430, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 443, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #mental .body .sidebox .inner .title img {
   position: absolute;
   top: 0;
@@ -409,93 +422,93 @@
   width: 100%;
   z-index: 5;
 }
-/* line 439, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 452, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #mental .body .sidebox .inner p {
   margin: 0;
   font-size: 1.1em;
 }
 
-/* line 451, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 464, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #advanced .banner {
   background: url("/assets/advanced_banner.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 456, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 469, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #advanced .banner .logo {
   border-left: 5px solid rgba(255, 255, 255, 0.5);
   border-bottom: 5px solid rgba(255, 255, 255, 0.5);
   border-right: 5px solid rgba(255, 255, 255, 0.5);
 }
 
-/* line 471, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 484, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #parish .banner {
   background: url("/assets/parish_banner.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 476, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 489, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #parish .banner .logo {
   border-left: 5px solid rgba(255, 255, 255, 0.5);
   border-bottom: 5px solid rgba(255, 255, 255, 0.5);
   border-right: 5px solid rgba(255, 255, 255, 0.5);
 }
 
-/* line 491, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 504, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #maryland .banner {
   background: url("/assets/maryland_banner.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 496, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 509, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #maryland .banner .logo {
   border-left: 5px solid rgba(255, 255, 255, 0.5);
   border-bottom: 5px solid rgba(255, 255, 255, 0.5);
   border-right: 5px solid rgba(255, 255, 255, 0.5);
 }
 
-/* line 511, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 524, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #leadership .banner {
   background: url("/assets/leadership_banner.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 516, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 529, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #leadership .banner .logo {
   border-left: 5px solid rgba(255, 255, 255, 0.5);
   border-bottom: 5px solid rgba(255, 255, 255, 0.5);
   border-right: 5px solid rgba(255, 255, 255, 0.5);
 }
-/* line 525, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 538, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #leadership .body .signature {
   margin: 1em 0 2em;
 }
 
-/* line 533, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 546, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #programs .banner {
   background: url("/assets/programs_banner.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 538, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 551, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #programs .banner .logo {
   border-left: 5px solid rgba(255, 255, 255, 0.5);
   border-bottom: 5px solid rgba(255, 255, 255, 0.5);
   border-right: 5px solid rgba(255, 255, 255, 0.5);
 }
-/* line 549, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 562, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #programs .body ul li {
   font-size: 1.1em;
   line-height: 1.75em;
 }
 
-/* line 559, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 572, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #report .banner {
   background: url("/assets/report_banner.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 564, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+/* line 577, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
 #report .banner .logo {
   border-left: 5px solid rgba(255, 255, 255, 0.5);
   border-bottom: 5px solid rgba(255, 255, 255, 0.5);
