@@ -15,6 +15,25 @@
  */
 
 
+@font-face {
+  font-family: 'Museo';    
+  src: url('/assets/Museo_300.otf') format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Museo';    
+  src: url('/assets/Museo_500.otf') format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Museo';    
+  src: url('/assets/Museo_700.otf') format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
 html, html body {
 	margin: 0;
 	padding: 0;
@@ -71,16 +90,22 @@ html, html body {
 
 		li {
 			display: inline-block;
-			padding: .5em 3.5em .5em 0;
+			padding: .5em 0;
 			font-size: .9em;
 			word-spacing: 0;
+			transition: all .15s;
+			-moz-transition: all .15s;
+			-webkit-transition: all .15s;
+			-ms-transition: all .15s;
 
 			a {
 				color: #000;
 				display: block;
 				font-size: 1.1em;
 				padding-left: .75em;
+				padding-right: 2em;
 				border-left: 1px solid;
+				text-decoration: none;
 			}
 		}
 		li.pedestrian {
@@ -90,6 +115,9 @@ html, html body {
 				border-color: #ffc72c;
 			}
 		}
+		li.pedestrian:hover {
+			background: #ffc72c;
+		}
 
 		li.generation {
 			border-bottom: 5px solid #f4c3cc;
@@ -97,6 +125,9 @@ html, html body {
 			a {
 				border-color: #f4c3cc;
 			}
+		}
+		li.generation:hover {
+			background: #f4c3cc;
 		}
 
 		li.mental {
@@ -106,6 +137,9 @@ html, html body {
 				border-color: #a05eb5;
 			}
 		}
+		li.mental:hover {
+			background: #a05eb5;
+		}
 
 		li.advanced {
 			border-bottom: 5px solid #6cc24a;
@@ -113,6 +147,9 @@ html, html body {
 			a {
 				border-color: #6cc24a;
 			}
+		}
+		li.advanced:hover {
+			background: #6cc24a;
 		}
 
 		li.parish {
@@ -122,6 +159,9 @@ html, html body {
 				border-color: #8bb8e8;
 			}
 		}
+		li.parish:hover {
+			background: #8bb8e8;
+		}
 
 		li.maryland {
 			border-bottom: 5px solid #ed8b00;
@@ -129,6 +169,9 @@ html, html body {
 			a {
 				border-color: #ed8b00;
 			}
+		}
+		li.maryland:hover {
+			background: #ed8b00;
 		}
 	}
 }
@@ -161,7 +204,22 @@ html, html body {
 }
 
 
+@media (max-width: 1200px) {
 
+	#header {
+
+		.mainlist {
+
+			li {
+
+				a {
+					font-size: 1em;
+					padding-right: 1.5em;
+				}
+			}
+		}
+	}	
+}
 
 
 
