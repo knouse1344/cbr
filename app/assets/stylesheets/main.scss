@@ -51,63 +51,33 @@
 		bottom: -2em;
 
 		a {
+			position: relative;
 			display: block;
 			width: 100%;
 			height: 4em;
+
+			img {
+				display: block;
+				width: 100%;
+				transition: all .1s;
+				z-index: 5;
+				position: relative;
+			}
+
+			img:last-child {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				z-index: 4;
+			}
 		}
 
-		a.leadership {
-			background: url('/assets/btn_leadership.png');
-			background-size: contain;
-			background-position: left;
-			background-repeat: no-repeat;
-		}
-		a.investment{
-			background: url('/assets/btn_investment.png');
-			background-size: contain;
-			background-position: left;
-			background-repeat: no-repeat;
-		}
-		a.programs{
-			background: url('/assets/btn_programs.png');
-			background-size: contain;
-			background-position: left;
-			background-repeat: no-repeat;
-		}
-		a.report {
-			background: url('/assets/btn_report.png');
-			background-size: contain;
-			background-position: left;
-			background-repeat: no-repeat;
-		}
+		a:hover {
 
-		a.leadership:hover {
-			background: url('/assets/btn_leadership_hover.png');
-			background-size: contain;
-			background-position: left;
-			background-repeat: no-repeat;
-		}
-		a.investment:hover {
-			background: url('/assets/btn_investment_hover.png');
-			background-size: contain;
-			background-position: left;
-			background-repeat: no-repeat;
-		}
-		a.programs:hover {
-			background: url('/assets/btn_programs_hover.png');
-			background-size: contain;
-			background-position: left;
-			background-repeat: no-repeat;
-		}
-		a.report:hover {
-			background: url('/assets/btn_report_hover.png');
-			background-size: contain;
-			background-position: left;
-			background-repeat: no-repeat;
-		}
-
-		img {
-			width: 90%;
+			img:first-child {
+				opacity: 0;
+			}
 		}
 	}
 }
@@ -180,6 +150,7 @@
 						top: 0;
 						left: 0;
 						width: 100%;
+						height: 140%;
 						z-index: 5;
 					}
 				}
