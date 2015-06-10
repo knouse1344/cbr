@@ -742,11 +742,11 @@ html, html body {
 #header .toplevel .toplist li {
   display: inline-block;
   height: 36px;
-  padding: 0 2em;
+  padding: 0 1em;
   color: #fff;
   font-family: 'Museo';
   line-height: 36px;
-  font-size: .9em;
+  font-size: .8em;
   text-transform: uppercase;
 }
 /* line 65, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
@@ -764,18 +764,47 @@ html, html body {
 #header .toplevel .toplist li:first-child {
   padding-left: 0;
 }
-/* line 83, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
+/* line 82, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
+#header .toplevel .social {
+  height: 36px;
+}
+/* line 85, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
+#header .toplevel .social p {
+  color: #fff;
+  font-size: .8em;
+  height: 36px;
+  line-height: 36px;
+  font-family: 'Museo';
+  text-transform: uppercase;
+  margin: 0;
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 96, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
+#header .toplevel .social p a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding: 0 .25em;
+  height: 36px;
+}
+/* line 103, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
+#header .toplevel .social p a i {
+  font-size: 16px;
+  line-height: 36px;
+}
+/* line 112, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
 #header .bottomlevel {
   border-bottom: 5px solid #ffc72c;
 }
-/* line 87, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
+/* line 116, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
 #header .mainlist {
   list-style-type: none;
   margin: 0 0 -4px;
   padding: 1.5em 0 0;
   word-spacing: -4px;
 }
-/* line 93, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
+/* line 122, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
 #header .mainlist li {
   display: inline-block;
   padding: .5em 0;
@@ -786,7 +815,7 @@ html, html body {
   -webkit-transition: all .15s;
   -ms-transition: all .15s;
 }
-/* line 103, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
+/* line 132, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
 #header .mainlist li a {
   color: #000;
   display: block;
@@ -796,100 +825,100 @@ html, html body {
   border-left: 1px solid;
   text-decoration: none;
 }
-/* line 113, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
+/* line 142, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
 #header .mainlist li.pedestrian {
   border-bottom: 5px solid #ffc72c;
 }
-/* line 116, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
+/* line 145, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
 #header .mainlist li.pedestrian a {
   border-color: #ffc72c;
 }
-/* line 120, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
+/* line 149, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
 #header .mainlist li.pedestrian:hover {
   background: #ffc72c;
 }
-/* line 124, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
+/* line 153, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
 #header .mainlist li.generation {
   border-bottom: 5px solid #f4c3cc;
 }
-/* line 127, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
+/* line 156, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
 #header .mainlist li.generation a {
   border-color: #f4c3cc;
 }
-/* line 131, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
+/* line 160, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
 #header .mainlist li.generation:hover {
   background: #f4c3cc;
 }
-/* line 135, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
+/* line 164, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
 #header .mainlist li.mental {
   border-bottom: 5px solid #a05eb5;
 }
-/* line 138, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
+/* line 167, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
 #header .mainlist li.mental a {
   border-color: #a05eb5;
 }
-/* line 142, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
+/* line 171, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
 #header .mainlist li.mental:hover {
   background: #a05eb5;
 }
-/* line 146, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
+/* line 175, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
 #header .mainlist li.advanced {
   border-bottom: 5px solid #6cc24a;
 }
-/* line 149, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
+/* line 178, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
 #header .mainlist li.advanced a {
   border-color: #6cc24a;
 }
-/* line 153, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
+/* line 182, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
 #header .mainlist li.advanced:hover {
   background: #6cc24a;
 }
-/* line 157, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
+/* line 186, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
 #header .mainlist li.parish {
   border-bottom: 5px solid #8bb8e8;
 }
-/* line 160, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
+/* line 189, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
 #header .mainlist li.parish a {
   border-color: #8bb8e8;
 }
-/* line 164, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
+/* line 193, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
 #header .mainlist li.parish:hover {
   background: #8bb8e8;
 }
-/* line 168, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
+/* line 197, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
 #header .mainlist li.maryland {
   border-bottom: 5px solid #ed8b00;
 }
-/* line 171, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
+/* line 200, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
 #header .mainlist li.maryland a {
   border-color: #ed8b00;
 }
-/* line 175, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
+/* line 204, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
 #header .mainlist li.maryland:hover {
   background: #ed8b00;
 }
 
-/* line 181, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
+/* line 210, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
 #footer {
   width: 100%;
   background: #da291c;
   margin-top: 10em;
 }
-/* line 186, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
+/* line 215, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
 #footer .foot-info {
   padding-top: 2em;
 }
-/* line 189, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
+/* line 218, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
 #footer .foot-info p {
   color: #fff;
   text-align: center;
 }
-/* line 195, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
+/* line 224, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
 #footer .logo {
   padding-top: 3em;
   text-align: center;
 }
-/* line 199, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
+/* line 228, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
 #footer .logo img {
   border-top: 8px solid #e7746b;
   border-left: 8px solid #e7746b;
@@ -898,7 +927,7 @@ html, html body {
 }
 
 @media (max-width: 1200px) {
-  /* line 217, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
+  /* line 246, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/application.scss */
   #header .mainlist li a {
     font-size: 1em;
     padding-right: 1.5em;
