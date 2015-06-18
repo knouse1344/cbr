@@ -686,6 +686,17 @@
   #investment .infographic p {
     font-size: 1.25em;
   }
+
+  /* line 784, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+  #report .banner h1 {
+    font-size: 3.75em;
+  }
+}
+@media (max-width: 992px) {
+  /* line 798, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+  #report .banner h1 {
+    font-size: 3em;
+  }
 }
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files

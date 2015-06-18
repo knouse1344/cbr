@@ -776,4 +776,28 @@
 			}
 		}
 	}
+
+	#report {
+
+		.banner {
+
+			h1 {
+				font-size: 3.75em;
+			}
+		}
+	}
+}
+
+@media (max-width: 992px) {
+
+
+	#report {
+
+		.banner {
+
+			h1 {
+				font-size: 3em;
+			}
+		}
+	}
 }
