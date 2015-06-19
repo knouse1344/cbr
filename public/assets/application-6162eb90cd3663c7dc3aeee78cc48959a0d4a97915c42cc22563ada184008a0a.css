@@ -716,10 +716,20 @@
   }
 
   /* line 832, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+  #index p.introduction {
+    padding-top: 7em;
+  }
+
+  /* line 839, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+  #investment .infographic {
+    padding-top: 7em;
+  }
+
+  /* line 846, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
   #pedestrian .body, #generations .body, #mental .body, #advanced .body, #parish .body, #maryland .body, #leadership .body, #report .body, #programs .body {
     padding-top: 9em;
   }
-  /* line 835, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
+  /* line 849, /Users/Bryan/Desktop/projects/cbr/app/assets/stylesheets/main.scss */
   #pedestrian .body .sidebox .inner .title, #generations .body .sidebox .inner .title, #mental .body .sidebox .inner .title, #advanced .body .sidebox .inner .title, #parish .body .sidebox .inner .title, #maryland .body .sidebox .inner .title, #leadership .body .sidebox .inner .title, #report .body .sidebox .inner .title, #programs .body .sidebox .inner .title {
     margin-bottom: 5em;
     width: 70%;
