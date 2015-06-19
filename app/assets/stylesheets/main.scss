@@ -49,6 +49,7 @@
 		position: absolute;
 		width: 100%;
 		bottom: -2em;
+		left: 0;
 
 		a {
 			position: relative;
@@ -797,6 +798,43 @@
 
 			h1 {
 				font-size: 3em;
+			}
+		}
+	}
+
+	#pedestrian, #generations, #mental, #advanced, #parish, #maryland, #leadership, #report, #programs {
+
+		.body {
+
+			.sidebox .inner .title {
+				margin-bottom: 5em;
+				width: 70%;
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+
+	.banner {
+
+		.banner-nav {
+			bottom: -10em;
+
+			a {
+				margin-bottom: 2em;
+			}
+		}
+	}
+
+	#pedestrian, #generations, #mental, #advanced, #parish, #maryland, #leadership, #report, #programs {
+
+		.body {
+			padding-top: 9em;
+
+			.sidebox .inner .title {
+				margin-bottom: 5em;
+				width: 70%;
 			}
 		}
 	}
