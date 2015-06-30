@@ -18,12 +18,21 @@
 	'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 	})(window,document,'script','dataLayer','GTM-N262SD');</script>
 	<!-- End Google Tag Manager -->
-	
+
 	<%= render 'layouts/header' %>
 
 	<%= yield %>
 
 	<%= render 'layouts/footer' %>
+
+<script>
+	var div = document.createElement("div");
+	div.innerHTML = "<!--[if lt IE 9]><i></i><![endif]-->";
+	var isIeLessThan9 = (div.getElementsByTagName("i").length == 1);
+	if (isIeLessThan9) {
+	    alert("This site is not designed to run effectively in Internet Explorer 8 and below.  Please try another browser (Chrome, Safari, etc.) or upgrade your browser.");
+	}
+</script>
 
 </body>
 </html>
